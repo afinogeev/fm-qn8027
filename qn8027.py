@@ -1,5 +1,4 @@
 #module used to control the qn8027 fm transmitter
-#
 
 import smbus
 import time

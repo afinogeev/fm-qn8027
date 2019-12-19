@@ -1,8 +1,6 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-#FM 
-
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import pyqtSignal, QObject
 import widget
