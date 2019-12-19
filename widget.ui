@@ -17,8 +17,9 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">font: 75 12pt &quot;Arial&quot;;
-color: rgb(40, 160, 80);
+   <string notr="true">background-color: rgb(80, 80, 80);
+font: 75 12pt &quot;Arial&quot;;
+color: rgb(180, 255, 60);
 
 </string>
   </property>
@@ -27,9 +28,6 @@ color: rgb(40, 160, 80);
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QGroupBox" name="groupBoxFreq">
-       <property name="styleSheet">
-        <string notr="true"/>
-       </property>
        <property name="title">
         <string>Frequency, MHz</string>
        </property>
@@ -37,7 +35,7 @@ color: rgb(40, 160, 80);
         <item>
          <widget class="QDoubleSpinBox" name="doubleSpinBoxFreq">
           <property name="styleSheet">
-           <string notr="true">color: rgb(160, 140, 0);</string>
+           <string notr="true">color: rgb(255, 220, 0);</string>
           </property>
           <property name="decimals">
            <number>1</number>
@@ -68,7 +66,7 @@ color: rgb(40, 160, 80);
         <item>
          <widget class="QDoubleSpinBox" name="doubleSpinBoxPow">
           <property name="styleSheet">
-           <string notr="true">color: rgb(160, 140, 0);</string>
+           <string notr="true">color: rgb(255, 220, 0);</string>
           </property>
           <property name="decimals">
            <number>0</number>
@@ -83,9 +81,6 @@ color: rgb(40, 160, 80);
      </item>
      <item>
       <widget class="QGroupBox" name="groupBoxTemp">
-       <property name="styleSheet">
-        <string notr="true"/>
-       </property>
        <property name="title">
         <string>Temperature, C</string>
        </property>
@@ -93,7 +88,7 @@ color: rgb(40, 160, 80);
         <item>
          <widget class="QLabel" name="labelTemp">
           <property name="styleSheet">
-           <string notr="true">color: rgb(160, 140, 0);</string>
+           <string notr="true">color: rgb(255, 220, 0);</string>
           </property>
           <property name="text">
            <string>t</string>
@@ -119,7 +114,7 @@ color: rgb(40, 160, 80);
         <item>
          <widget class="QLineEdit" name="lineEditRds">
           <property name="styleSheet">
-           <string notr="true">color: rgb(160, 140, 0);</string>
+           <string notr="true">color: rgb(255, 220, 0);</string>
           </property>
           <property name="text">
            <string>TEXT</string>
@@ -152,7 +147,7 @@ color: rgb(40, 160, 80);
         <item>
          <widget class="QLineEdit" name="lineEditTerminal">
           <property name="styleSheet">
-           <string notr="true">color: rgb(160, 140, 0);</string>
+           <string notr="true">color: rgb(255, 220, 0);</string>
           </property>
          </widget>
         </item>
@@ -174,7 +169,7 @@ color: rgb(40, 160, 80);
    <item>
     <widget class="QLabel" name="labelStatus">
      <property name="styleSheet">
-      <string notr="true">color: rgb(160, 140, 0);</string>
+      <string notr="true">color: rgb(255, 220, 0);</string>
      </property>
      <property name="text">
       <string>status</string>
